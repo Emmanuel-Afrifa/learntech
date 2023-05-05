@@ -19,8 +19,8 @@ This is a sample learnTech website built using HTML and CSS.
 ![Screenshot of the webpage](./img/screenshot2.jpeg)
 
 ### Links
-- [Github repository](#)
-- [Deployed site](#)
+- [Github repository](https://github.com/Emmanuel-Afrifa/learntech)
+- [Deployed site](https://learntech-sample.netlify.app/)
 
 ## Process
 ### Tools Used
