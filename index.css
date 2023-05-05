@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&family=Source+Serif+Pro:wght@400;700;900&display=swap');
+
+body {
+    font-family: 'Source Serif Pro';
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+#introduction {
+    max-width: 100%;
+    height: 100vh;
+    background: url(./img/background.jpg);
+    background-size: 100% 100%;
+    margin-top: 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 700px;
+}
+
+#heading {
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+#sub-heading {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#description {
+    font-size: 2em;
+}
+
+#featured-courses {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#featured-courses h2 {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+#courses {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.course {
+    text-align: center;
+}
+
+.course img {
+    width: 250px;
+    height: 150px;
+}
+
+.course p {
+    width: 250px;
+}
+
+.course button {
+    width: 200px;
+    font-weight: 900;
+}
+
+#about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 500px;
+}
+
+#about-heading {
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+
+#stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+}
+
+.stats-entity {
+    width: 250px;
+    height: 150px;
+    color: white;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name {
+    font-size: 30px;
+}
+.number {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+#learntech {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#learntech-heading {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#learnings {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.types {
+    text-align: center;
+}
+
+.types img {
+    width: 250px;
+    height: 150px;
+}
+
+.types p {
+    width: 250px;
+}
+
+.types button {
+    width: 200px;
+    font-weight: 900;
+}
+
+
+
+@media screen and (max-width: 767px){
+    
+    #introduction {
+        height: 450px;
+    }
+
+    #heading {
+        font-size: 50px;
+        margin: auto;
+        text-align: center;
+    }
+
+    #sub-heading {
+        font-size: 25px;
+        margin: 30px auto;
+        text-align: center;
+        width: 300px;
+    }
+
+    #description {
+        margin: 20px auto;
+        font-size: 16px;
+        width: 300px;
+        text-align: center;
+    }
+
+    #intro button {
+        margin: 20px auto;
+    }
+
+    #featured-courses h2 {
+        font-weight: 900;
+        font-size: 30px;
+        text-align: center;
+        margin: 35px auto 20px auto;
+    }
+
+    #courses {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .course {
+        margin-bottom: 15px;
+        border-bottom: #252525;
+    }
+
+    #about {
+        height: 700px;
+
+    }
+
+    #about-heading {
+        font-weight: 900;
+        font-size: 30px;
+        text-align: center;
+        margin: auto;
+        color: white;
+    }
+
+    #stats {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: white;
+        width: 100%;
+    }
+
+    
+    .stats-entity {
+        border-bottom: 1px solid white;
+        width: 100%;
+    }
+    
+    .name {
+        font-size: 30px;
+    }
+    .number {
+        font-size: 60px;
+        font-weight: 900;
+    }
+
+    #learntech {
+        margin-bottom: 40px;
+    }
+    
+    #learntech-heading {
+        font-weight: 900;
+        font-size: 40px;
+        text-align: center;
+        margin: auto;
+    }
+    
+    #learnings {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .types {
+        margin-bottom: 15px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:1200px)  {
+    
+    .course img {
+        width: 220px;
+        height: 150px;
+    }
+    
+    .course p {
+        width: 220px;
+    }
+
+
+    .stats-entity {
+        width: 200px;
+        height: 150px;
+        color: white;
+        display: flex;
+        background-color: black;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-left: 1px solid #252525;
+    }
+    
+    .name {
+        font-size: 30px;
+        text-align: center;
+    }
+    .number {
+        text-align: center;
+        font-size: 55px;
+    }
+
+    .types img {
+        width: 220px;
+        height: 150px;
+    }
+    
+    .types p {
+        width: 220px;
+    }
+
+}

@@ -1,0 +1,126 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+    background-color: white;
+    font-family: 'Source Serif Pro';
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container-heading {
+    font-weight: 900;
+    font-size: 4em;
+}
+
+#courses {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.course {
+    text-align: center;
+}
+
+.course img {
+    width: 350px;
+    height: 200px;
+}
+
+.course p {
+    width: 350px;
+}
+
+.course button {
+    width: 200px;
+    font-weight: 900;
+}
+
+
+/*Styling for smaller screens*/
+@media screen and (max-width: 767px){
+
+    #container {
+        height: 1300px;
+        margin-bottom: 40px;
+    }
+
+    #container-heading {
+        font-weight: 900;
+        font-size: 40px;
+        margin: 25px auto 25px auto;
+        text-align: center;
+        border-bottom: 1px solid #333;
+    }
+    
+    #courses {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .course {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .course img {
+        width: 300px;
+        height: 200px;
+    }
+    
+    .course p {
+        width: 300px;
+    }
+    
+    .course button {
+        width: 200px;
+        font-weight: 900;
+        margin: auto;
+    }
+    
+}
+
+
+/*Styling for smaller screens*/
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+    
+    body {
+        height: 100vh;
+    }
+
+    .course img {
+        width: 230px;
+        height: 180px;
+    }
+    
+    .course p {
+        width: 230px;
+    }
+    /*
+    .course button {
+        margin-bottom: 40px;
+    }
+    */
+}
+
+/*Adjusting the height for extra-large screens*/
+@media screen and (min-width: 2300px) {
+    body {
+        height: 100vh;
+    }
+    
+}

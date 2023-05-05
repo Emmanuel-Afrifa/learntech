@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&family=Source+Serif+Pro:wght@400;700;900&display=swap');
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: white;
+    max-width: 100%;
+    font-family: 'Source Serif Pro';
+}
+
+#container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-heading {
+    font-weight: 900;
+    font-size: 4em;
+
+}
+
+.container-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.content-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    height: 270px;
+    width: 400px;
+}
+
+.content-info h3 {
+    font-weight: 900;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.content-info p {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+
+@media screen and (max-width: 767px) {
+
+
+    #container-heading {
+        font-weight: 900;
+        font-size: 40px;
+        text-align: center;
+        margin: 35px auto 35px auto;
+        border-bottom: 1px solid #333;
+    }
+
+    .container-content {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 25px;
+        margin: auto;
+    }
+
+    .container-content img {
+        width: 270px;
+        margin: auto;
+    }
+
+    .content-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 200px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .content-info h3 {
+        font-weight: 900;
+        font-size: 25px;
+        margin: 0px auto;
+    }
+    
+    .content-info p {
+        font-weight: 500;
+
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .content-info button {
+        margin: auto;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .container-content img {
+        width: 320px;
+        height: 230px;
+    }
+
+    .content-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 50px;
+        height: 230px;
+        width: 300px;
+    }
+    
+    .content-info h3 {
+        font-weight: 900;
+        font-size: 40px;
+        margin: 0px;
+    }
+    
+    .content-info p {
+        font-weight: 500;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 2300px){
+    body {
+        max-height: 100vh;
+    }
+}
