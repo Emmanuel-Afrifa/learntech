@@ -1,6 +1,6 @@
 # LearnTech page
 
-This is a sample learnTech website.
+This is a sample learnTech website built using HTML and CSS.
 
 
 ## Table of contents
